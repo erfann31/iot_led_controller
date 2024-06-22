@@ -29,6 +29,10 @@ body {
     color: white;
 }
 
+.spinner-border {
+    border-color: white !important;
+}
+
 .btn-custom {
     background-color: #191919 !important;
     color: white !important;
