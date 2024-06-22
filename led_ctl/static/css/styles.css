@@ -29,9 +29,26 @@ body {
     color: white;
 }
 
-.spinner-border {
-    border-color: white !important;
+/* Loading Spinner */
+#loadingSpinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #252525; /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
+
+#loadingSpinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: white;
+}
+
 
 .btn-custom {
     background-color: #191919 !important;
